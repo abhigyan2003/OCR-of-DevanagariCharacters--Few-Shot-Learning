@@ -1,0 +1,1 @@
+# OCR-of-Devanagari-Characters--Few-Shot-Learning
