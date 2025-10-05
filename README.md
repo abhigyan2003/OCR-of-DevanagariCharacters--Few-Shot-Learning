@@ -40,102 +40,7 @@ This approach minimizes training requirements while maintaining robust performan
 
 
 
-## ⚙️ Requirements
 
-Make sure you have the following dependencies installed:
-
-```bash
-pip install tensorflow numpy scikit-learn matplotlib seaborn
-```
-
-Or install all at once using:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 🚀 Usage
-
-### Step 1: Set up dataset paths
-Modify the following in the script:
-
-```python
-root_dir = "/kaggle/input/devanagari-consonant-conjuncts-fsl/main"
-output_dir = "/kaggle/working/"
-target_size = (224, 224)
-```
-
-### Step 2: Run the main script
-```bash
-python few_shot_ocr.py
-```
-
-### Step 3: Outputs
-- Generated support/query directories.
-- Confusion Matrix and Classification Report.
-- Printed evaluation metrics (Accuracy, Precision, Recall, F1-Score).
-
----
-
-## 📊 Evaluation Metrics
-
-| Metric | Description |
-|--------|-------------|
-| **Accuracy** | Percentage of correctly classified query samples |
-| **Precision** | Class-wise average correctness of predictions |
-| **Recall** | Ability to detect all samples of a class |
-| **F1 Score** | Harmonic mean of precision and recall |
-| **Confusion Matrix** | Visual representation of predictions vs actual labels |
-
----
-
-## 🧪 Sample Results
-
-Example outputs during evaluation:
-
-```
-Accuracy: 94.67%
-Precision: 93.45%
-Recall: 94.12%
-F1 Score: 93.78%
-```
-
-Confusion matrix and classification report are automatically displayed and saved.
-
----
-
-## 🧠 Key Learnings
-
-- Demonstrated how prototype-based Few-Shot Learning can effectively classify complex low-resource scripts.
-- Leveraged VGG16 embeddings for transfer learning without full retraining.
-- Established a scalable and interpretable baseline for Devanagari OCR research.
-
----
-
-## 🧾 Citation / Reference
-
-If you use this work in your research, please cite:
-
-```
-Borah, Abhigyan. "Optical Character Recognition (OCR) of Devanagari Conjunct Characters using Few-Shot Learning", 
-B.Tech Minor Project, Sikkim Manipal Institute of Technology, 2025.
-```
-
----
-
-## 👨‍💻 Author
-
-**Abhigyan Borah**  
-B.Tech in Computer Science and Engineering (AI Minor)  
-Sikkim Manipal Institute of Technology, India
-
-- 🔗 [LinkedIn](https://www.linkedin.com/in/abhigyan-borah)
-- 💻 [GitHub](https://github.com/abhigyanborah)
-- 📧 abhigyanborah3@gmail.com
-
----
 
 ## 🧩 Acknowledgements
 
@@ -145,16 +50,4 @@ Sikkim Manipal Institute of Technology, India
 
 ---
 
-## ⭐ Future Work
 
-- Extend to Transformer-based meta-learning approaches (e.g., Meta-BERT, ViT-FSL).
-- Incorporate contrastive or triplet loss for improved embedding separation.
-- Benchmark against Prototypical Networks and Matching Networks.
-
----
-
-## 📄 License
-
-```
-MIT License © 2025 Abhigyan Borah
-```
