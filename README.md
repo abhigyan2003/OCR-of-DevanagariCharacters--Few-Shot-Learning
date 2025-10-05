@@ -38,24 +38,7 @@ This approach minimizes training requirements while maintaining robust performan
 - The query is assigned to the **nearest prototype class**.
 - Accuracy, precision, recall, F1-score, and a confusion matrix are generated.
 
----
 
-## 📁 Directory Structure
-
-```
-📦 devanagari-fsl
-├── main/                    # Root dataset directory
-│   ├── class_1/
-│   ├── class_2/
-│   └── ...
-├── output/                  # Generated during execution
-│   ├── support/
-│   ├── query/
-├── few_shot_ocr.py          # Main script
-└── README.md                # Project documentation
-```
-
----
 
 ## ⚙️ Requirements
 
